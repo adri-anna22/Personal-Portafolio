@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Adriana Jaime</title>
+  <meta name="description" content="Portafolio personal de Adriana Jaime">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!--MENU-->
+  <div class="contenedor-header">
+    <header>
+      <div class="logo">
+        <a href="#">Adri</a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#inicio">INICIO</a></li>
+          <li><a href="#sobremi">SOBRE MÍ</a></li>
+          <li><a href="#curriculum">CURRICULUM</a></li>
+          <li><a href="#portafolio">PORTAFOLIO</a></li>
+          <li><a href="#habilidades">HABILIDADES</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+<!--INICIO-->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+      <div class="contenedor-img">
+        <img src="images/yop.png" alt="Mi foto de perfil de Adriana Jaime">
+      </div>
+      <h1>ADRIANA JAIME</h1>
+      <h2>Futura Ing. Informática</h2>
+      <div class="contacto">
+        <a href="https://github.com/adri-anna22" title="github" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/adriana-jaime-0294b8225/" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://platzi.com/p/AdrianaJ/" title="Platzi" target="_blank"><i class="fa-solid fa-p"></i></a>
+      </div>
+      
+    </div>
+  </section>
+
+<!-- SECCION SOBRE MÍ -->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+      <h2>Sobre Mí</h2>
+      <p><span>Hola! soy Adriana Jaime.</span> Soy una persona proactiva, organizada y responsable. Mi enfoque y dedicación son impulsados por mi
+        profundo interés en la aplicación práctica de la tecnología para resolver problemas del mundo real.
+        He trabajado en equipos multidisciplinarios, lo que me ha permitido desarrollar habilidades de
+        colaboración, comunicación y resolución de problemas.</p>
+      <div class="fila">
+        <!-- Datos Personales -->
+        <div class="col">
+          <h3>Datos Personales</h3>
+          <ul>
+            <li><strong>Cargo actual:</strong> <span>Quality Assurance</span></li>
+            <li><strong>Especialidad:</strong> <span>Diseño UI y UX</span></li>
+            <li><strong>Correo:</strong> jaimeadriana2020@gmail.com</li>
+            <li><strong>Ubicación:</strong> Venezuela</li>
+            <li><strong>Edad:</strong> <span id="edad"></span> años</li> 
+          </ul>
+        </div>
+
+        <!-- Intereses -->
+        <div class="col">
+          <h3>Intereses</h3>
+
+          <div class="contenedor-intereses">
+            <div class="interes">
+              <i class="fa-solid fa-book"></i>
+              <span>LIBROS</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-headphones"></i>
+              <span>MÚSICA</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>VIAJAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-dumbbell"></i>
+              <span>DEPORTES</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-dog"></i>
+              <span>MI PERRO</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-cloud-bolt"></i>
+              <span>HARRY PTT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botón para Descargar CV -->
+      <button id="descargar-cv">
+        Descargar CV <i class="fa-regular fa-circle-down"></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </section>
+
+<!-- SECCION CURRICULUM -->
+  <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+      <h2>Curriculum</h2>
+      <div class="fila">
+
+        <div class="col izquierda">
+          <h3>Educación</h3>
+
+          <div class="item izq">
+            <h4>TSU en Ingeniería Informática</h4>
+            <span class="casa">Instituto Universitario Jesús Obrero</span>
+            <span class="fecha">2022 - Presente</span>
+            <p>Estudios enfocados a la implementación y mantenimiento operativo de bases de datos, habilidades
+              para el diseño, desarrollo y administración de entornos web y móviles.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Inglés</h4>
+            <span class="casa">Piccadilly English Center</span>
+            <span class="fecha">Abr. - Dic. 2018</span>
+            <p>Curso intensivo de Ingles Básico. Nivel: Adult 1 (Total English* Elementary). Como objetivo principal
+              el entendimiento de la gramática, lectura y habla a nivel básico.</p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col derecha">
+          <h3>Experiencia de Trabajo</h3>
+
+          <div class="item der">
+            <h4>Quality Assurance Contractor</h4>
+            <span class="casa">Chick Gold Inc.</span>
+            <span class="fecha">Mar. 2024 - Presente.</span>
+            <p>Uso de Figma para gestionar diseños y prototipos, asegurando su correcta implementación.
+              Gestión de tickets de trabajo utilizando Azure DevOps.
+              Implementación de herramientas como Designer Tools, Inspector, Dimensions y VisBug para
+              realizar pruebas y garantizar la calidad del diseño.
+              Realización de pruebas manuales para verificar la funcionalidad de proyectos, asegurando que
+              cumplan con los requisitos y estándares de calidad de la empresa.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+
+          <div class="item der">
+            <h4>Asistente de Tecnología</h4>
+            <span class="casa">Instituto Universitario Jesús Obrero</span>
+            <span class="fecha">Jun. 2023 - Presente.</span>
+            <p>Despliegue de infraestructura de redes mediante la instalación de cableado.
+              Configuración de equipos tecnológicos para eventos.
+              Instalación de sistemas operativos como Windows y Linux.
+              Reparación y mantenimiento de diversos equipos tecnológicos.
+              Creación de imágenes publicitarias para la página de UPP IUJO utilizando Figma.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- SECCION PORTAFOLIO -->
+<section id="portafolio" class="portafolio">
+  <div class="contenido-seccion">
+    <h2>Portafolio</h2>
+    <div class="proyectos">
+      <div class="proyecto">
+        <img src="./images/OnlineShop.png" alt="Proyecto 1">
+        <h3>Online Shopping</h3>
+        <p>HTML/CSS/PHP/Javascript. Proyecto de la carrera, registro de usuarios con validaciones y visión del registro en una lista funcional</p>
+      </div>
+
+      <div class="proyecto">
+        <img src="./images/LaDoña.png" alt="Proyecto 2">
+        <h3>Repostería la Doña</h3>
+        <p>HTML/CSS/PHP/Javascript/Bootstrap. Proyecto de 3er semestre. Inspirado en la problemática del registro ambiguo de la reposteria original. Ambisioso proyecto de carrito de compras con registro de pagos paypal integrado.</p>
+      </div>
+      <div class="proyecto">
+        <img src="./images/cobrifyFondoNew.jpg" alt="Proyecto 3">
+        <h3>Cobrify</h3>
+        <p>Se realizó en C#. Proyecto de facturación con formularios para generar de devoluciones y anulaciones de dichas facturas</p>
+      </div>
+      <div class="proyecto">
+        <img src="./images/way.png" alt="Proyecto 4">
+        <h3>Club Deportivo WAY</h3>
+        <p>HTML/CSS/PHP/Javascript/Bootstrap. Sistema administrativo para el registro y control de socios, miembros, areas, servicios y mucho más. Maravillo club deportivo WAY. Dato curioso: Las siglas del nombre es por las iniciales de los devs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cursos">
+  <h3>Cursos y Certificados</h3>
+
+  <div class="contenedor-cursos">
+    <div class="curso">
+      <h4>Curso de Pensamiento Lógico</h4>
+      <p>Algoritmos y Diagramas de Flujo.</p>
+      <a href="https://platzi.com/p/AdrianaJ/curso/3221-pensamiento-logico/diploma/detalle/" target="_blank" class="ver-mas">
+        <i class="fa-solid fa-eye"></i>
+      </a>
+    </div>
+    <div class="curso">
+      <h4>Curso de Pensamiento Lógico</h4>
+      <p>Manejo de Datos, Estructuras y Funciones</p>
+      <a href="https://platzi.com/p/AdrianaJ/curso/3222-pensamiento-logico-estructuras/diploma/detalle/" target="_blank" class="ver-mas">
+        <i class="fa-solid fa-eye"></i>
+      </a>
+    </div>
+    <div class="curso">
+      <h4>Curso de validación de Ideas</h4>
+      <p>Prototipos y Testing Exitosos.</p>
+      <a href="https://platzi.com/p/AdrianaJ/curso/1970-prototipos-testing/diploma/detalle/" target="_blank" class="ver-mas">
+        <i class="fa-solid fa-eye"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- SECCION HABILIDADES -->
+  <section id="habilidades" class="habilidades">
+    
+    <div class="contenido-seccion">
+      <h2>Habilidades</h2>
+      <div class="barra-habilidad">
+        <h3>HTML & CSS</h3>
+        <div class="barra">
+          <div class="relleno" style="width: 0%;" data-skill="80%"></div>
+        </div>
+      </div>
+      <div class="barra-habilidad">
+        <h3>JavaScript</h3>
+        <div class="barra">
+          <div class="relleno" style="width: 0%;" data-skill="50%"></div>
+        </div>
+      </div>
+      <div class="barra-habilidad">
+        <h3>PHP</h3>
+        <div class="barra">
+          <div class="relleno" style="width: 0%;" data-skill="70%"></div>
+        </div>
+      </div>
+      <div class="barra-habilidad">
+        <h3>C#</h3>
+        <div class="barra">
+          <div class="relleno" style="width: 0%;" data-skill="65%"></div>
+        </div>
+      </div>
+      <div class="barra-habilidad">
+        <h3>Bootstrap</h3>
+        <div class="barra">
+          <div class="relleno" style="width: 0%;" data-skill="45%"></div>
+        </div>
+      </div>   
+      <div class="barra-habilidad">
+        <h3>Diseño UX/UI</h3>
+        <div class="barra">
+          <div class="relleno" style="width: 0%;" data-skill="85%"></div>
+        </div>
+      </div>   
+      <div class="barra-habilidad">
+        <h3>Pruebas Manuales</h3>
+        <div class="barra">
+          <div class="relleno" style="width: 0%;" data-skill="75%"></div>
+        </div>
+      </div>   
+    </div>      
+  </section>
+  <script src="script.js"></script>
+</body>
